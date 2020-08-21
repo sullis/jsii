@@ -35,7 +35,7 @@ setuptools.setup(
     },
 
     install_requires=[
-        "attrs~=19.3.0",
+        "attrs>=19.3,<20.2",
         "cattrs~=1.0.0",
         "importlib_resources ; python_version < '3.7'",
         "python-dateutil",
